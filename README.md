@@ -1,6 +1,8 @@
 # Apple Format Tools
 
-## `file` Extensions
+## `/magic`: Magic files for `file(1)`
+
+Stored here until they are submitted upstream.
 
 ## `/hexfiend-templates`
 

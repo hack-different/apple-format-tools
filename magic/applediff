@@ -1,0 +1,7 @@
+0 string BXDIFF Apple Binary Difference
+>&0 string 40 \b, version 4.0
+>&0 string 41 \b, version 4.1
+>&0 string 50 \b, version 5.0
+
+0 string DIDIFF10 Apple Directory Diff
+

@@ -1,0 +1,6 @@
+0 string 3gmI IMG3
+>&15 byte x \b, %c
+>&14 byte x \b%c
+>&13 byte x \b%c
+>&12 byte x \b%c
+

@@ -1,0 +1,9 @@
+0 string AEA1 Apple Encrypted Archive
+0 string AA01 Apple Archive (raw)
+
+0 string pbz Apple Archive
+>&0 string e \b (lzfse)
+>&0 string x \b (lzma)
+>&0 string 4 \b (lz4)
+>&0 string z \b (zlib)
+

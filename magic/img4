@@ -1,0 +1,33 @@
+# These are ASN.1 encoded data, so we scan the first
+# 30 bytes to try and find the 4cc. Hopefully 30 is
+# enough bytes to scan.
+0 search/b/30 IM4P IM4P
+>&2 string krnl \b, kernelcache
+>&2 string rdsk \b, ramdisk
+>&2 string trst \b, static trustcache
+>&2 string ltrs \b, loadable trustcache
+>&2 string dtrs \b, development trustcache
+>&2 string ibec \b, iBEC
+>&2 string ibss \b, iBSS
+>&2 string ibot \b, iBoot
+>&2 string lphp \b, Leap Haptics Firmware
+>&2 string msys \b, mtree
+>&2 string isys \b, root hash
+>&2 string dtre \b, Device Tree
+>&2 string dtrs \b, Device Tree for recovery
+>&2 string illb \b, LLB
+>&2 string sepi \b, SEP Firmware
+>&2 string auxk \b, auxilary kernelcache
+>&2 string bat0 \b, battery image 0
+>&2 string bat1 \b, battery image 1
+>&2 string batf \b, battery full image
+>&2 string lpol \b, LocalPolicy
+>&2 default x
+>>&0 string >\0 \b, %.4s
+
+0 search/b/30 IMG4 IMG4
+
+0 search/b/30 IM4M IM4M
+
+0 search/b/30 IM4R IM4R
+
